@@ -33,7 +33,7 @@ build/
 ### VS Code ###
 .vscode/
 
-javaEmailSender/src/resources/env.properties
+env.properties
 
 
 
