@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en"
+       xmlns="http://www.w3.org/1999/html"
+      xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+    <body>
+        <h1>You've added a new training!</h1>
+        <p>Dear <br><br> We like you to inform you that you have added a new training in the trackYourTrainingApp using Spring Boot.</p>
+        <h2>This is the training you've entered:</h2>
+        <ul>
+            <li>datum: <b th:text="${training.datum}"></b> </li>
+            <li>De opwarming: <b th:text="${training.opwarming}"></b></li>
+            <li>Het gevoel van de opwarming: <b th:text="${training.gevoelOpwarming}"></b></li>
+            <li>De soort training: <b th:text="${training.soortTraining}"></b></li>
+            <li>De training: <b th:text="${training.uitlegTraining}"></b></li>
+            <li>Het gevoel van de training: <b th:text="${training.gevoelTraining}"></b></li>
+        </ul>
+
+        <p>Thank you for using our app!<br><br>Have a great day <br>The HansAdventures team</p>
+
+
+
+    </body>
+</html>
